@@ -143,5 +143,40 @@
     }
     #gallery-btn{
         top: 550px;
+        left: 35px;
     }
+}
+
+@media (max-width: 755px){
+    #txt-box{
+        width: 280px;
+    }
+}
+
+@media (max-width: 630px){
+    #txt-box{
+        width: 220px;
+    }
+
+    #s-txt{
+        font-size: 19px;
+    }
+
+    #gallery-btn{
+        width: 210px;
+    }
+
+    #book-button{
+        left: 10%;
+        top: 65%;
+    }
+
+    #preview-label{
+        top: 300px;
+    }
+
+    #active-preview{
+        top: 5%;
+    }
+
 }

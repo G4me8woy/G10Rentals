@@ -49,4 +49,18 @@ nav {
     min-width: 100px;
 }
 
+@media (max-width: 991px){
+    #logout-link{
+        display: none;
+    }
+}
+@media (max-width: 700px){
+    #left-link-set{
+        display: none;
+    }
+    #right-link-set{
+        display: none;
+    }
+}
+
 
