@@ -57,6 +57,8 @@
     position: absolute;
     top: 0;
     right: 0;
+    width: calc(859/818*100%);
+    min-width: 712px;
 }
 
 #active-preview{
@@ -68,13 +70,8 @@
 #preview-label{
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    // width: 408px;
-    // height: 42.39px;
     left: 150px;
     top: 460px;
-
-    // font-family: Roboto;
-    // font-style: normal;
     font-weight: bold;
     font-size: 34px;
     line-height: 40px;
@@ -83,6 +80,10 @@
     color: #FFFFFF;
 
     text-shadow: 0px 4px 4px #47C4FB;
+
+    // color: #47C4FB;
+
+    // text-shadow: 0px 4px 4px #AAE2FB;
 }
 
 #book-button{
@@ -94,4 +95,53 @@
     font-family: 'Roboto';
     color: white;
     font-size: 30px;
+}
+
+
+
+//////// --- Media Queries --- ////////
+
+@media (max-width: 1240px) {
+    #preview-label{
+        color: #47C4FB;
+        text-shadow: 0px 4px 4px #AAE2FB;
+    }
+}
+
+@media (max-width: 1060px) {
+   #preview-bg{
+       display: none;
+   } 
+   
+   #l-side{
+       width: 50%;
+   }
+
+   #r-side{
+       width: 50%;
+       background: #AAE2FB;
+   }
+
+   #active-preview{
+       top: 1%;
+       left: -55%;
+       width: calc(665/526.5*100%);
+   }
+
+   #preview-label{
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #47C4FB;
+    width: 100%;
+    left: 0;
+    // border: 1px solid black;
+   }
+}
+
+@media (max-width: 930px){
+    #txt-box{
+        width: 380px;
+    }
+    #gallery-btn{
+        top: 550px;
+    }
 }
