@@ -2,4 +2,50 @@
     height: 100vh;
     width: 100%;
     border: 1px solid blue;
+    display: flex;
+}
+
+#l-side{
+    border: 1px solid red;
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+#txt-box{
+    position: absolute;
+    left: 35.98px;
+    top: 298px;
+    // border: 1px solid black;
+    width: 432px;
+    margin-bottom: 96px;
+}
+#p-txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    line-height: 29px;
+    margin-bottom: 63px;
+}
+#s-txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+#gallery-btn{
+    width: 250px;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: absolute;
+    left: 73px;
+    top: 500px;
+}
+
+
+
+#r-side{
+    border: 1px solid yellow;
+    height: 100%;
+    width: 60%;
 }

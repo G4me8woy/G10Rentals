@@ -1,7 +1,17 @@
 @import 'nav';
+@import 'hero';
 
 
 *{
     padding: 0px;
     margin: 0px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px #C33124;
+    background: #F98365;
+    color: white;
 }

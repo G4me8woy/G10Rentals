@@ -9,6 +9,8 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 #links {
@@ -60,9 +62,72 @@ nav {
   display: flex;
 }
 
-#button {
+#nav-button {
   padding: 2px 3px;
   min-width: 100px;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#l-side {
+  border: 1px solid red;
+  height: 100%;
+  width: 40%;
+  position: relative;
+}
+
+#txt-box {
+  position: absolute;
+  left: 35.98px;
+  top: 298px;
+  width: 432px;
+  margin-bottom: 96px;
+}
+
+#p-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  line-height: 29px;
+  margin-bottom: 63px;
+}
+
+#s-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+#gallery-btn {
+  width: 250px;
+  height: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10%;
+  position: absolute;
+  left: 73px;
+  top: 500px;
+}
+
+#r-side {
+  border: 1px solid yellow;
+  height: 100%;
+  width: 60%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,10 +141,5 @@ nav {
           box-shadow: 3px 3px 5px #C33124;
   background: #F98365;
   color: white;
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
 }
 /*# sourceMappingURL=style.css.map */
