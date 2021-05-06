@@ -1,4 +1,4 @@
-#hero{
+#hero-section{
     height: 100vh;
     width: 100%;
     // border: 1px solid blue;
@@ -20,12 +20,14 @@
     width: 432px;
     margin-bottom: 96px;
 }
+
 #p-txt {
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
     line-height: 29px;
     margin-bottom: 63px;
 }
+
 #s-txt {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
@@ -64,7 +66,7 @@
 #active-preview{
     position: absolute;
     left: 10%;
-    top: 5%;
+    top: 12%;
 }
 
 #preview-label{

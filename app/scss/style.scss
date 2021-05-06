@@ -1,5 +1,6 @@
 @import 'nav';
 @import 'hero';
+@import 'testimony';
 
 
 *{
@@ -14,4 +15,8 @@
     box-shadow: 3px 3px 5px #C33124;
     background: #F98365;
     color: white;
+}
+
+.selected{
+    border-bottom: 3px solid black;
 }
